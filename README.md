@@ -17,7 +17,7 @@
 
 - 📫 How to reach me **kathirnithish13199@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1xDM_Zne4w6bT67VlkCKnhfgCZtbDQoiL/view?usp=sharing](https://drive.google.com/file/d/1xDM_Zne4w6bT67VlkCKnhfgCZtbDQoiL/view?usp=sharing)
+- 📄 Know about my experiences [https://drive.google.com/file/d/1xDM_Zne4w6bT67VlkCKnhfgCZtbDQoiL/view?usp=sharing](https://drive.google.com/file/d/1xn08Q4B-NeYFbP4XGwd-o1qNtOD371sz/view?usp=sharing)
 
 - ⚡ Professional Summary | **Results-oriented MECM Administrator with a proven track record in managing and optimizing enterprise endpoint environments. Possessing a strong foundation in system administration, I am adept at implementing and maintaining effective endpoint management strategies. Currently expanding my skill set to encompass DevOps and cloud technologies to drive automation and efficiency, aligning with evolving IT landscapes.**
 

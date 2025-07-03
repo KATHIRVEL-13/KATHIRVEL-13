@@ -290,7 +290,7 @@ gtag('config', 'G-C65E6YYL5W');
     </section>
       <!--==================== Qualifications ==================-->
 
-  <section class="qualification__section service__section" id="qualification">
+ <section class="qualification__section service__section" id="qualification">
   <h2 class="section__title">Qualification</h2>
   <span class="section__subtitle">My Professional Journey</span>
 
@@ -298,22 +298,19 @@ gtag('config', 'G-C65E6YYL5W');
     <div class="qualification__tabs">
       <div
         class="qualification__button button--flex qualification__active"
-        data-target="#work"
+        data-target="#combined_timeline"
+        id="timeline_tab_button"
       >
         <i class="uil uil-suitcase qualification__icon"></i>
-        Work Experience
+        Professional Journey
       </div>
-      <div class="qualification__button button--flex" data-target="#education">
-        <i class="uil uil-graduation-cap qualification__icon"></i>
-        Education
       </div>
-    </div>
 
     <div class="qualification__sections">
       <div
         class="qualification__content qualifiation__active services__content"
         data-content
-        id="work"
+        id="combined_timeline"
       >
         <div class="qualification__data">
           <div>
@@ -381,9 +378,10 @@ gtag('config', 'G-C65E6YYL5W');
         </div>
 
         <div class="qualification__data qualification__data-left">
-          <div></div> <div>
+          <div></div>
+          <div>
             <span class="qualification__rounder"></span>
-            </div>
+            <span class="qualification__line"></span> </div>
           <div>
             <h3 class="qualification__title">
               Software Development Engineer (DevOps)
@@ -399,7 +397,8 @@ gtag('config', 'G-C65E6YYL5W');
               class="button button--flex button--small button--link services__button"
             >
               View More
-              <i class="uil uil-arrow-right button__icon"></i> </span>
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
             <div class="services__modal">
               <div class="services__modal-content">
                 <h4 class="services__modal-title">Professional Summary :</h4>
@@ -436,13 +435,6 @@ gtag('config', 'G-C65E6YYL5W');
             </div>
           </div>
         </div>
-      </div>
-
-      <div
-        class="qualification__content services__content"
-        data-content
-        id="education"
-      >
         <div class="qualification__data">
           <div>
             <h3 class="qualification__title">Bachelor's</h3>
@@ -489,8 +481,9 @@ gtag('config', 'G-C65E6YYL5W');
           </div>
         </div>
 
-        <div class="qualification__data">
-          <div></div> <div>
+        <div class="qualification__data qualification__data-left">
+          <div></div>
+          <div>
             <span class="qualification__rounder"></span>
             <span class="qualification__line"></span>
           </div>
@@ -582,7 +575,7 @@ gtag('config', 'G-C65E6YYL5W');
             <span class="qualification__rounder"></span>
             </div>
         </div>
-      </div>
+        </div>
     </div>
   </div>
 </section>

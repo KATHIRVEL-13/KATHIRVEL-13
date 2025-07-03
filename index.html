@@ -290,7 +290,7 @@ gtag('config', 'G-C65E6YYL5W');
     </section>
       <!--==================== Qualifications ==================-->
 
-  <section class="qualification__section service__section" id="qualification">
+ <section class="qualification__section service__section" id="qualification">
   <h2 class="section__title">Qualification</h2>
   <span class="section__subtitle">My Professional Journey</span>
 
@@ -298,9 +298,14 @@ gtag('config', 'G-C65E6YYL5W');
     <div class="qualification__tabs">
       <div
         class="qualification__button button--flex qualification__active"
-        data-target="#work">
+        data-target="#work"
+      >
         <i class="uil uil-suitcase qualification__icon"></i>
         Work Experience
+      </div>
+      <div class="qualification__button button--flex" data-target="#education">
+        <i class="uil uil-graduation-cap qualification__icon"></i>
+        Education
       </div>
     </div>
 
@@ -376,7 +381,8 @@ gtag('config', 'G-C65E6YYL5W');
         </div>
 
         <div class="qualification__data qualification__data-left">
-          <div></div> <div>
+          <div></div>
+          <div>
             <span class="qualification__rounder"></span>
             </div>
           <div>
@@ -394,7 +400,8 @@ gtag('config', 'G-C65E6YYL5W');
               class="button button--flex button--small button--link services__button"
             >
               View More
-              <i class="uil uil-arrow-right button__icon"></i> </span>
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
             <div class="services__modal">
               <div class="services__modal-content">
                 <h4 class="services__modal-title">Professional Summary :</h4>
@@ -433,13 +440,6 @@ gtag('config', 'G-C65E6YYL5W');
         </div>
       </div>
 
-      <div class="qualification__container container grid services__container">
-    <div class="qualification__tabs">
-      <div class="qualification__button button--flex" data-target="#education">
-        <i class="uil uil-graduation-cap qualification__icon"></i>
-        Education
-      </div>
-    </div>
       <div
         class="qualification__content services__content"
         data-content
@@ -491,8 +491,9 @@ gtag('config', 'G-C65E6YYL5W');
           </div>
         </div>
 
-        <div class="qualification__data">
-          <div></div> <div>
+        <div class="qualification__data qualification__data-left">
+          <div></div>
+          <div>
             <span class="qualification__rounder"></span>
             <span class="qualification__line"></span>
           </div>
@@ -589,68 +590,67 @@ gtag('config', 'G-C65E6YYL5W');
   </div>
 </section>
 
-      <!--=================== Portfolio ===================-->
-      <section class="portfolio section" id="portfolio">
-        <h2 class="section__title">Projects</h2>
-        <span class="section__subtitle">Most Recent Work</span>
+<section class="portfolio section" id="portfolio">
+  <h2 class="section__title">Projects</h2>
+  <span class="section__subtitle">Most Recent Work</span>
 
-        <div class="portfolio__container container swiper-container">
-          <div class="swiper-wrapper">
-            <!-- ------------------------portfollio 1-------------------- -->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio5.png" class="portfolio__img" />
+  <div class="portfolio__container container swiper-container">
+    <div class="swiper-wrapper">
+      <div class="portfolio__content grid swiper-slide">
+        <img src="assets/img/portfolio5.png" class="portfolio__img" />
 
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">
-                  GitHub Actions - CI/CD 
-                </h3>
-                <p class="portfolio__description">
-                  In this project, I deployed code from a local GitHub repository to a self-hosted Kubernetes cluster. I used Docker for containerization and integrated security scanning tools like Trivy and SonarQube within the repo's workflow file. A dedicated Ubuntu runner was set up to manage the CI/CD pipeline, automating deployment and ensuring security. This project highlights my expertise in DevOps, containerization, and security automation.
-                </p>
-                <a
-                  href="https://github.com/KATHIRVEL-13/Boardgame_jenkinslearn/blob/main/.github/workflows/maven.yml"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/kathirvel-p13/details/projects"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  See More
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-              </div>
-            </div>
-            <!-- ------------------------portfollio 2-------------------- -->
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">
+            GitHub Actions - CI/CD
+          </h3>
+          <p class="portfolio__description">
+            In this project, I deployed code from a local GitHub repository to a self-hosted Kubernetes cluster. I used Docker for containerization and integrated security scanning tools like Trivy and SonarQube within the repo's workflow file. A dedicated Ubuntu runner was set up to manage the CI/CD pipeline, automating deployment and ensuring security. This project highlights my expertise in DevOps, containerization, and security automation.
+          </p>
+          <a
+            href="https://github.com/KATHIRVEL-13/Boardgame_jenkinslearn/blob/main/.github/workflows/maven.yml"
+            class="button button--flex button--small portfolio__button"
+          >
+            GitHub Repository
+            <i class="uil uil-external-link-alt button__icon"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/kathirvel-p13/details/projects"
+            class="button button--flex button--small portfolio__button"
+          >
+            See More
+            <i class="uil uil-external-link-alt button__icon"></i>
+          </a>
+        </div>
+      </div>
+      <div class="portfolio__content grid swiper-slide">
+        <img src="assets/img/portfolio1.png" class="portfolio__img" />
 
-            <div class="portfolio__content grid swiper-slide">
-              <img src="assets/img/portfolio1.png" class="portfolio__img" />
-
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">
-                  Deployed a 10 Tier Application in EKS
-                </h3>
-                <p class="portfolio__description">
-                  In this project, I built a 10-tier application where each service (e.g., CartService, AdService, CheckoutService) had its own manifest file. Changes to one service triggered deployment for that specific service. I used Jenkins for CI/CD, deployed the app on a self-hosted EKS cluster, and containerized services with Docker. This project helped me understand multi-tier application architecture and CI/CD workflows.
-                </p>
-                <a
-                  href="https://github.com/KATHIRVEL-13/10-MicroService-Appliction"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  GitHub Repository
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/kathirvel-p13/details/projects"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  See More
-                  <i class="uil uil-external-link-alt button__icon"></i>
-                </a>
-              </div>
-            </div>
+        <div class="portfolio__data">
+          <h3 class="portfolio__title">
+            Deployed a 10 Tier Application in EKS
+          </h3>
+          <p class="portfolio__description">
+            In this project, I built a 10-tier application where each service (e.g., CartService, AdService, CheckoutService) had its own manifest file. Changes to one service triggered deployment for that specific service. I used Jenkins for CI/CD, deployed the app on a self-hosted EKS cluster, and containerized services with Docker. This project helped me understand multi-tier application architecture and CI/CD workflows.
+          </p>
+          <a
+            href="https://github.com/KATHIRVEL-13/10-MicroService-Appliction"
+            class="button button--flex button--small portfolio__button"
+          >
+            GitHub Repository
+            <i class="uil uil-external-link-alt button__icon"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/kathirvel-p13/details/projects"
+            class="button button--flex button--small portfolio__button"
+          >
+            See More
+            <i class="uil uil-external-link-alt button__icon"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
             <!-- ------------------------portfollio 3-------------------- -->
             <div class="portfolio__content grid swiper-slide">
